@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Responsável por ajustar configurações do nosso documento, que não são visíveis para quem acessa a página -->
+    <meta charset="UTF-8" />
+    <!-- Define quais os conjuntos de caracteres que vamos usar nessa página (permite caracteres especiais) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Configura o site para se adaptar à qualquer tela, em diferentes tamanhos -->
+    <title>ProjetoDiscoverSara</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Aviso a tag em que lugar no mundo está o CSS, usando o ./ -->
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="/img/avatar.png"
+          alt="Imagem de Sara Dantas sorrindo com fundo escuro"
+        />
+        <p>@saras.dantas</p>
+      </div>
+
+      <div id="switch" onclick="toggleMode();">
+        <button class="btn">
+
+        </button>
+        <span></span>
+      </div>
+
+      <ul>
+        <li>
+          <a
+            href="https://github.com/sarasdantas?tab=repositories"
+            target="_blank"
+            >Veja meus trabalhos no GitHub</a
+          >
+        </li>
+        <li>
+          <a href="https://www.instagram.com/saras.dantas/" target="_blank"
+            >Siga-me no Instagram</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/sara-s-dantas-5634622b5/"
+            target="_blank"
+            >Conecte-se ao meu LinkedIn</a
+          >
+        </li>
+      </ul>
+      <div id="social-links">
+        <a href="https://github.com/sarasdantas" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="https://www.instagram.com/saras.dantas/" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a> 
+        <a href="https://www.linkedin.com/in/sara-s-dantas-5634622b5/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+      </div>
+      <footer>
+        Feito com ♥ pela <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+      </footer>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script src="./script.js"></script>
+
+  </body>
+</html>
